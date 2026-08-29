@@ -55,7 +55,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  position: relative; 
+  position:relative ; 
     
 }
 
@@ -77,3 +77,32 @@ body {
     display: flex;
     text-align: center;
 }
+ .infotitle {
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+ }
+
+ .info {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+ }
+
+ .infosquares {
+    display: flex;
+    width: 100%;
+ }
+ .imgsquare{
+    display: flex;
+    flex-direction: row;}
+
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+    border: 10px solid rgb(255, 150, 63);
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+
+ }
